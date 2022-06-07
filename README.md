@@ -27,7 +27,7 @@ Second version of [rails-crypto-converter](https://github.com/WeiSin99/rails-cry
 1. **Search for a cryptocurrency**
 
 - Search from over 10000 cryptocurrencies.
-- Once selected a cryptocurrency, the exchange rate will change accordingly.
+- Once a cryptocurrency is selected, the exchange rate will change accordingly.
 
 2. **Swap currencies**
 
