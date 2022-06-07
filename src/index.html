@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Cryptocurrency conversion calculator" />
+    <title>Cryptocurrency Conversion Calculator</title>
+  </head>
+  <body>
+    <article class="container mt-5 mb-5">
+      <header>
+        <h1 class="text-primary text-5xl">Cryptocurrency converter</h1>
+        <p>
+          Ever since the rise of Bitcoin, new cryptocurrencies are being created
+          everyday. The rising of cryptocurrencies has created various
+          opportunities, but its rapid development has also made the field more
+          complex. Particularly, the relative values between different
+          cryptocurrencies has become increasingly unclear.
+        </p>
+        <p>
+          How much ETH you can buy with 1 unit of BTC? How much is ADA worth in
+          BNB? If you ever have any of these questions, you are at the right
+          place. With our cryptocurrency converter, you can answer all these
+          questions instantly.
+        </p>
+        <p>
+          All you need to do is to select the cryptocurrency pair in your mind
+          and the results will be right before your eyes.
+        </p>
+        <p>It is that simple - give it a try!</p>
+      </header>
+
+      <article
+        class="converter-conatiner row justify-content-around no-gutters p-3 mt-5 rounded"
+        id="cryptocurrency-converter"
+      >
+        <section class="col-lg-2 col-10 align-self-center">
+          <input class="amount-input form-control" id="amount" value="1" />
+        </section>
+
+        <section class="col-lg-3 col-10 mt-3 mt-lg-0 p-0">
+          <div class="search-box-wrapper rounded" id="from"></div>
+          <div
+            class="list-group rounded search-result hide"
+            id="from-currency-search-result"
+          ></div>
+        </section>
+
+        <section
+          class="col-lg-1 col-10 d-flex justify-content-center align-items-center my-3 my-lg-0 p-0"
+        >
+          <button
+            class="btn btn-primary d-flex align-items-center h-50 p-3"
+            id="exchange-button"
+          >
+            <picture>
+              <source
+                srcset="./assets/horizontal-swap.svg"
+                media="(min-width: 992px)"
+              />
+              <img
+                src="./assets/vertical-swap.svg"
+                alt="horizontal swap icon"
+              />
+            </picture>
+          </button>
+        </section>
+
+        <section class="col-lg-2 col-10 align-self-center">
+          <input class="amount-input form-control" id="result" value="1" />
+        </section>
+
+        <section class="col-lg-3 col-10 mt-3 mt-lg-0 p-0">
+          <div class="search-box-wrapper rounded" id="to"></div>
+          <div
+            class="list-group rounded search-result hide"
+            id="to-currency-search-result"
+          ></div>
+        </section>
+      </article>
+    </article>
+  </body>
+</html>
