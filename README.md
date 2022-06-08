@@ -3,6 +3,7 @@
 ![Project Screenshot](./src/assets/project-screenshot.png)
 A web based cryptocurrencies exchange rate calculator powered by [CoinGecko](https://www.coingecko.com/en/api). <br>
 Second version of [rails-crypto-converter](https://github.com/WeiSin99/rails-crypto-converter), built using Vanilla JavaScript.
+Available on [https://crypto-conversion-calculator.netlify.app](https://crypto-conversion-calculator.netlify.app)
 
 ## Tech Stack
 
